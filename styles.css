@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+}
+
+section {
+    text-align: center;
+}
+
+.title {
+    font-size: 3em;
+    color: #1eaf2ae8;
+    margin: 5px auto;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 300px;
+    margin: 3px auto;
+    background-color: #00050c;
+    color: #07726b;
+    justify-content: center;
+}
+
+.cell {
+    width: 130px;
+    height: 100px;
+    box-shadow: 1px 1px 1px 1px #07726b;
+    border: 1px;
+    cursor: pointer;
+    line-height: 100px;
+    font-size: 75px;
+    align-items: center;
+    justify-items: center;
+}
+
+.gameStatus {
+    color: #07726b;
+    margin: 10px auto;
+}
+
+#gameReset {
+    background-color: #1eaf2ae8;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    color: #03163a;
+}
+ 
